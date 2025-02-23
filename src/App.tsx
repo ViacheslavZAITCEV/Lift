@@ -14,7 +14,7 @@ const store = configureStore({ reducer: combineReducers({ user }) });
 
 
 function App() {
-  document.title = "Viacheslav ZAITCEV Développeur d'application"
+  document.title = "Ascenseur"
   return (
     <Provider store={store}>
 
